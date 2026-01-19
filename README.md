@@ -16,3 +16,9 @@ Python 3.9+ and packages listed in `requirements.txt`.
 Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+command：
+```bash
+Bashpython predict.py --input path/to/new_data.xlsx --model final_result/trained_model_components.pkl --output my_predictions
+```
