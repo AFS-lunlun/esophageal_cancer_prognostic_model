@@ -20,5 +20,5 @@ pip install -r requirements.txt
 
 command：
 ```bash
-python predict.py --input path/to/new_data.xlsx --model final_result/trained_model_components.pkl --output my_predictions
+python predict_model.py --input new_data_test.xlsx --model final_result/trained_model_components.pkl --output my_predictions
 ```
